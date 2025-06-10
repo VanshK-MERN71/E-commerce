@@ -12,10 +12,10 @@ import { Button } from "../ui/button";
 
 function CommonForm({
   formControls,
+  buttonText,
   formData,
   setFormData,
   onSubmit,
-  buttonText,
   isBtnDisabled,
 }) {
   function renderInputsByComponentType(getControlItem) {
@@ -118,7 +118,18 @@ function CommonForm({
           </div>
         ))}
       </div>
-      <Button disabled={isBtnDisabled} type="submit" className="mt-2 w-full">
+      <Button
+        disabled={isBtnDisabled}
+        type="submit"
+        className={`
+    mt-2 w-full py-2 px-4 rounded-md font-semibold text-white
+    bg-gradient-to-r from-pink-500 via-yellow-400 to-green-500
+    bg-[length:200%_200%] bg-left 
+    transition-all duration-500 ease-in-out
+    hover:bg-right hover:animate-gradient-x
+    disabled:opacity-50 disabled:cursor-not-allowed
+  `}
+      >
         {buttonText || "Submit"}
       </Button>
     </form>
