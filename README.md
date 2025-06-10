@@ -13,7 +13,7 @@ Below are the screenshots of the frontend UI stored at:
 
 <table>
   <tr>
-    <td><img src="https://github.com/VanshK-MERN71/E-commerce/blob/main/client/src/assets/Screenshot%202025-06-10%20113921.png width="100%"/></td>
+    <td><img src="https://github.com/VanshK-MERN71/E-commerce/blob/main/client/src/assets/Screenshot%202025-06-10%20113921.png" width="100%"/></td>
     <td><img src="https://github.com/VanshK-MERN71/E-commerce/blob/main/client/src/assets/Screenshot%202025-06-09%20141049.png" width="100%"/></td>
   </tr>
   <tr>
